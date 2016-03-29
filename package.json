@@ -1,0 +1,27 @@
+{
+  "name": "cherries2",
+  "version": "1.0.0",
+  "description": "Standard functions for copy pasting",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test | faucet"
+  },
+  "author": "Gorm Casper",
+  "license": "MIT",
+  "eslintConfig": {
+    "ecmaFeatures": {
+      "modules": true
+    },
+    "env": {
+      "browser": true,
+      "node": true,
+      "es6": true
+    }
+  },
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tape": "^4.5.1"
+  }
+}
