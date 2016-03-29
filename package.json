@@ -1,5 +1,5 @@
 {
-  "name": "cherries2",
+  "name": "cherries",
   "version": "1.0.0",
   "description": "Standard functions for copy pasting",
   "directories": {
@@ -7,6 +7,10 @@
   },
   "scripts": {
     "test": "node test | faucet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/casperin/cherries.git"
   },
   "author": "Gorm Casper",
   "license": "MIT",
