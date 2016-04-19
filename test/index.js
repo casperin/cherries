@@ -30,6 +30,7 @@ require('./array/takeWhile');
 require('./array/toArray');
 require('./array/union');
 require('./array/unique');
+require('./array/uniqueBy');
 require('./array/update');
 require('./array/zip');
 require('./array/zipWith');

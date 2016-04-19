@@ -1,16 +1,13 @@
-/**
- * TODO: Tests
- */
-exports.module = uniqueBy;
+module.exports = uniqueBy;
 
 function uniqueBy (fn, array) {
   const seen = new Set();
   const result = [];
-  for (const item of array) {
+  array.forEach(item => {
     const computed = fn(item);
-    if (seen.has(computed)) continue;
+    if (seen.has(computed)) return;
     seen.add(computed);
     result.push(item);
-  }
+  });
   return result;
 }
