@@ -8,6 +8,7 @@ require('./array/dropWhile');
 require('./array/find');
 require('./array/flatten');
 require('./array/flattenDeep');
+require('./array/group');
 require('./array/initial');
 require('./array/intersection');
 require('./array/last');
